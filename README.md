@@ -8,7 +8,7 @@ Sassha is a novel second-order method designed to enhance generalization by expl
 
 This Pytorch implementation supports various tasks, including image classification, finetuning, and label noise experiments.
 
-For a detailed explanation of the Sassha algorithm, please refer to [this paper](https://arxiv.org/pdf/2006.00719.pdf)
+For a detailed explanation of the Sassha algorithm, please refer to [this paper](https://arxiv.org/pdf/2502.18153)
 
 
 ## Getting started

@@ -1,0 +1,10 @@
+datasets==2.19.0
+einops==0.7.0
+evaluate==0.4.2
+huggingface_hub
+numpy==1.26.2
+torch==2.1.1
+torchvision==0.16.1
+tqdm
+transformers==4.48.0
+wandb

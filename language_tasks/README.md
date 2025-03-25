@@ -1,0 +1,1 @@
+# We plan to release code for pretraining large language models that exceed the scale of the mini-gpt1 model.

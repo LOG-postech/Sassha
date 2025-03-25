@@ -6,7 +6,7 @@ This repository contains Pytorch source code for arXiv paper [SASSHA: SHARPNESS-
 
 Sassha is a novel second-order method designed to enhance generalization by explicitly reducing sharpness of the solution, while stabilizing the computation of approximate Hessians along the optimization trajectory.
 
-This Pyotorch implementation supports various tasks, including image_classification, finetuning, and label noise experiments.
+This Pytorch implementation supports various tasks, including image classification, finetuning, and label noise experiments.
 
 For a detailed explanation of the Sassha algorithm, please refer to [this paper](https://arxiv.org/pdf/2006.00719.pdf)
 

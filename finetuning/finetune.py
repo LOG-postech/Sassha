@@ -39,7 +39,9 @@ import wandb
 os.environ["WANDB__SERVICE_WAIT"] = "300"
 
 # Load optimizers
-sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname('optimizers'))))
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
 from optimizers import get_optimizer
 
 # load hessain power scheduler

@@ -347,6 +347,7 @@ class GPT(nn.Module):
                                  betas=betas,
                                  weight_decay=weight_decay,
                                  lazy_hessian=lazy_hessian,
+                                 grad_reduce="mean",
                                  eps=eps,
                                  seed=seed)
         
